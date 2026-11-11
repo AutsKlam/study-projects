@@ -1,0 +1,15 @@
+# Existing local course materials are not part of the initial documentation PR.
+/agentstudy/
+
+# Local execution context, scratch data, and generated indexes.
+.codegraph/
+.agent/runs/
+.agent/scratch/
+.agent/memory/
+.env
+.env.*
+!.env.example
+__pycache__/
+.venv/
+node_modules/
+dist/
